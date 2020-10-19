@@ -48,7 +48,7 @@ Create a hybrid image using high-pass and low-pass fitlered images.
 #### Implement NN Layers
 Implement the backward_pass of fully connected layer 
 Implement the backward_pass of convolutional layer 
-#### Fintuning and Adversarial Attacks (40 points)
+#### Fintuning and Adversarial Attacks
 
 Implement the train function to complete fintuinig 
 Adversarial attacks on 4 images of 4 classes
@@ -67,6 +67,10 @@ Accuracy: It is very hard to get the right result with a greedy approach. Howeve
 implement a dynamic programming based stereo estimation algorithm that incorporates the spatial smoothness between adjacent disparities. For the local matching cost, you can use the same sum-of-squared-differences
 
 
+### 6 Motion
+Lucas-Kanade optical flow algorithm: 
+
+using the brightness constancy constraint to implement the Lucas-Kanade optical flow algorithm, and evaluate it on synthetic data
 
 
 
