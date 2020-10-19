@@ -30,6 +30,35 @@ Implement low and high pass filters and apply them to images.
 Create a hybrid image using high-pass and low-pass fitlered images.
 
 
+### 3  Construct a panorama by stitching several individual and overlapping images
+
+#### Homography
+
+#### Warping 
+
+#### SIFT and RANSAC 
+
+#### Image Blending
+
+#### Creating Panoramas 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
