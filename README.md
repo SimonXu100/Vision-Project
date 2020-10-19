@@ -44,9 +44,27 @@ Create a hybrid image using high-pass and low-pass fitlered images.
 
 
 
+### 4 
+#### Implement NN Layers
+Implement the backward_pass of fully connected layer 
+Implement the backward_pass of convolutional layer 
+#### Fintuning and Adversarial Attacks (40 points)
+
+Implement the train function to complete fintuinig 
+Adversarial attacks on 4 images of 4 classes
 
 
+### 5 Stereo Depth
 
+#### Greedy Stereo Matching 
+From the left and right image, calculate the disparity between each pixel using a greedy matching algorithm. You may assume that the stereo pairs are rectified, which means the camera pairs are only horizontally translated. In your PDF, be sure to include both the code and the visualization of the estimated disparity.
+
+Distance Function: There are a variety of distance functions that you can use. For this problem, you can just use sum of squared differences between RGB patches.
+
+Accuracy: It is very hard to get the right result with a greedy approach. However, your approach should at least put the head and background in right place
+
+### dynamic programming based stereo estimation algorithm:  Viterbi algorithm
+implement a dynamic programming based stereo estimation algorithm that incorporates the spatial smoothness between adjacent disparities. For the local matching cost, you can use the same sum-of-squared-differences
 
 
 
