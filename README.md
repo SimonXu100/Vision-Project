@@ -61,8 +61,6 @@ From the left and right image, calculate the disparity between each pixel using 
 
 Distance Function: There are a variety of distance functions that you can use. For this problem, you can just use sum of squared differences between RGB patches.
 
-Accuracy: It is very hard to get the right result with a greedy approach. However, your approach should at least put the head and background in right place
-
 ### dynamic programming based stereo estimation algorithm:  Viterbi algorithm
 implement a dynamic programming based stereo estimation algorithm that incorporates the spatial smoothness between adjacent disparities. For the local matching cost, you can use the same sum-of-squared-differences
 
